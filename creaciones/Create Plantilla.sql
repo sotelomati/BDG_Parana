@@ -1,0 +1,5 @@
+CREATE TABLE [NOMBRE_TABLA] (
+	Gid integer NOT NULL PRIMARY KEY,
+	Geom geometry NOT NULL,
+
+)
