@@ -92,26 +92,48 @@ SELECT id, geom, "Name" FROM public."AUX_hospitales";
 --                     ESCUELAS                           --
 ------------------------------------------------------------
 
-CREATE TABLE localidades(
-	id SERIAL PRIMARY KEY,
-	nombre VARCHAR(50) NOT NULL
-);
-
-INSERT INTO localidades(nombre)
-SELECT DISTINCT localidad FROM public."AUX_escuelas_parana";
-
-
 CREATE TABLE escuelas(
 	gid VARCHAR(25) PRIMARY KEY,
 	geom geometry NOT NULL,
 	nombre VARCHAR(200),
-	sector VARCHAR(1),
+	sector VARCHAR(50),
 	domicilio VARCHAR(200),
 	email VARCHAR(200),
-	localidad_id INTEGER,
-	FOREIGN KEY(localidad_id) REFERENCES localidad(id)
+	localidad VARCHAR(50) DEFAULT 'PARANA',
+	edu_comun BOOLEAN DEFAULT FALSE,
+	edu_especial BOOLEAN DEFAULT FALSE,
+	edu_jov_adultos BOOLEAN DEFAULT FALSE,
+	edu_arte BOOLEAN DEFAULT FALSE,
+	edu_servicios BOOLEAN DEFAULT FALSE
 );
 
+INSERT INTO escuelas(gid,geom,nombre,sector,domicilio,email,edu_comun,edu_especial,edu_jov_adultos,edu_arte,edu_servicios)
+SELECT gid,geom,nombre,sector,domicilio,email,(CASE ed_comun WHEN 'X' THEN TRUE ELSE FALSE END),(CASE ed_especia WHEN 'X' THEN TRUE ELSE FALSE END),(CASE ed_jov_adu WHEN 'X' THEN TRUE ELSE FALSE END),(CASE ed_arte WHEN 'X' THEN TRUE ELSE FALSE END),(CASE servicios_ WHEN 'X' THEN TRUE ELSE FALSE END)
+FROM public."AUX_escuelas_parana"
+WHERE localidad = 'PARANA';
 
-Escuelas:
- Tipo educación
+
+------------------------------------------------------------
+--                   Radios censales                      --
+------------------------------------------------------------
+
+CREATE TABLE radios_censales(
+	gid VARCHAR(25) PRIMARY KEY,
+	geom geometry NOT NULL,
+	varon INTEGER,
+	mujer INTEGER,
+	hogares INTEGER,
+	jardin_preescolar INTEGER,
+	primario INTEGER,
+	egb INTEGER,
+	secundario INTEGER,
+	polimodal INTEGER,
+	superior INTEGER,
+	universitario INTEGER,
+	post_universitario INTEGER,
+	especial INTEGER
+);
+
+INSERT INTO radios_censales(gid,geom,varon,mujer,hogares,jardin_preescolar,primario,egb,secundario,polimodal,superior,universitario,post_universitario,especial)
+SELECT id, geom, varon, mujer, hogares, "PERSONA-P09.csv_1 Inicial (jard�n, preescolar)", "PERSONA-P09.csv_2 Primario", "PERSONA-P09.csv_3 EGB", "PERSONA-P09.csv_4 Secundario", "PERSONA-P09.csv_5 Polimodal", "PERSONA-P09.csv_6 Superior no universitario", "PERSONA-P09.csv_7 Universitario", "PERSONA-P09.csv_8 Post universitario", "PERSONA-P09.csv_9 Educaci�n especial"
+FROM public."AUX_radios_censales_parana";
