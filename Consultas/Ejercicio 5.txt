@@ -1,0 +1,15 @@
+SELECT gid, (varon+mujer) AS poblacion ,geom ,CAST(ST_Area(geom) AS NUMERIC(20,2)) AS superficie_mt2
+  FROM radios_censales
+  ORDER BY superficie_mt2 DESC;
+  
+	--Agrego un st collect del resultado para no meter varias lineas
+	--agrego un array de los datos ordenados de forma descendente
+  INSERT INTO resultados (ejercicio, item, descripcion, georesultado, otro_resultado)
+	VALUES 	(5, 1, 'Concatenacion de todos los geom del select',
+			ST_COLLECT( ARRAY(select geom from radios_censales)),
+			(select ARRAY (SELECT CAST(ST_Area(geom) AS NUMERIC(20,2)) AS superficie_mt2
+  			FROM radios_censales
+  			ORDER BY superficie_mt2 DESC))
+			)
+
+select * from resultados
