@@ -1,0 +1,12 @@
+SELECT CAST(SUM(ST_Area(geom)) AS NUMERIC(20,2)) AS Superficie_mt2
+    FROM radios_censales;
+
+
+INSERT INTO resultados(
+	ejercicio, item, descripcion, otro_resultado)
+	VALUES 	(4, 1, 'Superficie total en metros cuatrados',
+			( SELECT CAST(SUM(ST_Area(geom)) AS NUMERIC(20,2)) AS Superficie_mt2
+  				FROM radios_censales)
+			)
+			
+SELECT * FROM resultados
