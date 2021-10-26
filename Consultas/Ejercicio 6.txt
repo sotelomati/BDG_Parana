@@ -1,0 +1,16 @@
+SELECT ST_INTERSECTION(
+	(SELECT ST_COLLECT(ARRAY( SELECT geom FROM CALLES where nombre like 'Avenida de las Américas' ))),
+	(SELECT ST_COLLECT(ARRAY( SELECT geom FROM CALLES where nombre like 'Avenida Francisco Ramirez' )))
+)
+
+INSERT INTO resultados(
+	ejercicio, item, descripcion, georesultado)
+	VALUES 	(6, 1, 'Interseccion entre Avenida de las americas y avenida ramirez',
+				( SELECT ST_INTERSECTION(
+					(SELECT ST_COLLECT(ARRAY( SELECT geom FROM CALLES where nombre like 'Avenida de las Américas' ))),
+					(SELECT ST_COLLECT(ARRAY( SELECT geom FROM CALLES where nombre like 'Avenida Francisco Ramirez' )))
+					)
+				)
+			)
+			
+SELECT * FROM resultados
