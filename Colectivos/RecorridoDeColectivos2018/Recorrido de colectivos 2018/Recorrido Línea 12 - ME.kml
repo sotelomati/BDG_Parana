@@ -4067,55 +4067,55 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            -60.5219674,-31.8343024,0
-            -60.5225156,-31.8342375,0
-            -60.522862,-31.8339566,0
-            -60.5197646,-31.8322027,0
-            -60.5191692,-31.8319257,0
-            -60.518746,-31.8318137,0
-            -60.5184485,-31.8317896,0
-            -60.5181511,-31.8316015,0
-            -60.5180047,-31.8312294,0
-            -60.5179764,-31.8307936,0
-            -60.5178583,-31.8299352,0
-            -60.5174505,-31.8285754,0
-            -60.5176543,-31.8284964,0
-            -60.5163614,-31.8241558,0
-            -60.5158285,-31.8242358,0
-            -60.5125275,-31.8243523,0
-            -60.5130925,-31.8200407,0
-            -60.5131041,-31.8194514,0
-            -60.5128383,-31.8159525,0
-            -60.5120504,-31.8089064,0
-            -60.5100337,-31.805128,0
-            -60.5080568,-31.8014755,0
-            -60.5069624,-31.7994865,0
-            -60.505911,-31.7974884,0
-            -60.5054756,-31.7956928,0
-            -60.5048633,-31.7928531,0
-            -60.5037085,-31.7874473,0
-            -60.502986,-31.7840042,0
-            -60.501853,-31.7786532,0
-            -60.5005073,-31.7722012,0
-            -60.4998345,-31.7690664,0
-            -60.4994927,-31.7673485,0
-            -60.4992797,-31.7658221,0
-            -60.4981803,-31.7610476,0
-            -60.4976033,-31.7587612,0
-            -60.497123,-31.7563652,0
-            -60.496896,-31.7552862,0
-            -60.4959446,-31.7507198,0
-            -60.4957049,-31.7494766,0
-            -60.4950737,-31.7461397,0
-            -60.4945358,-31.7436138,0
-            -60.4936398,-31.7400893,0
-            -60.4928834,-31.7365465,0
-            -60.5158981,-31.7329059,0
-            -60.5157415,-31.7321939,0
-            -60.5203582,-31.7309261,0
-            -60.522358,-31.7303472,0
-            -60.5269004,-31.7291041,0
-            -60.5313784,-31.7278744,0
+            -60.5219674,-31.8343024
+            -60.5225156,-31.8342375
+            -60.522862,-31.8339566
+            -60.5197646,-31.8322027
+            -60.5191692,-31.8319257
+            -60.518746,-31.8318137
+            -60.5184485,-31.8317896
+            -60.5181511,-31.8316015
+            -60.5180047,-31.8312294
+            -60.5179764,-31.8307936
+            -60.5178583,-31.8299352
+            -60.5174505,-31.8285754
+            -60.5176543,-31.8284964
+            -60.5163614,-31.8241558
+            -60.5158285,-31.8242358
+            -60.5125275,-31.8243523
+            -60.5130925,-31.8200407
+            -60.5131041,-31.8194514
+            -60.5128383,-31.8159525
+            -60.5120504,-31.8089064
+            -60.5100337,-31.805128
+            -60.5080568,-31.8014755
+            -60.5069624,-31.7994865
+            -60.505911,-31.7974884
+            -60.5054756,-31.7956928
+            -60.5048633,-31.7928531
+            -60.5037085,-31.7874473
+            -60.502986,-31.7840042
+            -60.501853,-31.7786532
+            -60.5005073,-31.7722012
+            -60.4998345,-31.7690664
+            -60.4994927,-31.7673485
+            -60.4992797,-31.7658221
+            -60.4981803,-31.7610476
+            -60.4976033,-31.7587612
+            -60.497123,-31.7563652
+            -60.496896,-31.7552862
+            -60.4959446,-31.7507198
+            -60.4957049,-31.7494766
+            -60.4950737,-31.7461397
+            -60.4945358,-31.7436138
+            -60.4936398,-31.7400893
+            -60.4928834,-31.7365465
+            -60.5158981,-31.7329059
+            -60.5157415,-31.7321939
+            -60.5203582,-31.7309261
+            -60.522358,-31.7303472
+            -60.5269004,-31.7291041
+            -60.5313784,-31.7278744
           </coordinates>
         </LineString>
       </Placemark>
@@ -4128,54 +4128,54 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            -60.5313784,-31.7278562,0
-            -60.5306595,-31.7258902,0
-            -60.5296509,-31.7270646,0
-            -60.5264482,-31.7278827,0
-            -60.5210264,-31.7293007,0
-            -60.5174384,-31.7302035,0
-            -60.515524,-31.73065,0
-            -60.5152767,-31.7305331,0
-            -60.5098044,-31.7313744,0
-            -60.5103238,-31.7338783,0
-            -60.5041891,-31.7348651,0
-            -60.4986442,-31.7357139,0
-            -60.4930025,-31.7366054,0
-            -60.4939621,-31.7408793,0
-            -60.4946243,-31.7436139,0
-            -60.49519,-31.746312,0
-            -60.4961317,-31.7511516,0
-            -60.4967821,-31.7541394,0
-            -60.497174,-31.7561451,0
-            -60.4977076,-31.7586957,0
-            -60.4982842,-31.7610364,0
-            -60.4987994,-31.7633693,0
-            -60.4993284,-31.7656972,0
-            -60.4997477,-31.7681583,0
-            -60.5002636,-31.7706194,0
-            -60.5013169,-31.7754868,0
-            -60.503381,-31.785249,0
-            -60.5053484,-31.7946388,0
-            -60.5059971,-31.7974123,0
-            -60.512139,-31.8087948,0
-            -60.5130036,-31.8166408,0
-            -60.5130989,-31.8179174,0
-            -60.5132224,-31.8194382,0
-            -60.5131978,-31.8200597,0
-            -60.5126689,-31.8242456,0
-            -60.5158044,-31.8241462,0
-            -60.5163649,-31.8240011,0
-            -60.5173218,-31.8270053,0
-            -60.5181286,-31.830055,0
-            -60.518343,-31.830648,0
-            -60.518673,-31.831111,0
-            -60.5191253,-31.8316009,0
-            -60.5199156,-31.8321957,0
-            -60.5212618,-31.8329314,0
-            -60.5210864,-31.8331641,0
-            -60.5210637,-31.8334772,0
-            -60.5213749,-31.8340529,0
-            -60.5219674,-31.8343024,0
+            -60.5313784,-31.7278562
+            -60.5306595,-31.7258902
+            -60.5296509,-31.7270646
+            -60.5264482,-31.7278827
+            -60.5210264,-31.7293007
+            -60.5174384,-31.7302035
+            -60.515524,-31.73065
+            -60.5152767,-31.7305331
+            -60.5098044,-31.7313744
+            -60.5103238,-31.7338783
+            -60.5041891,-31.7348651
+            -60.4986442,-31.7357139
+            -60.4930025,-31.7366054
+            -60.4939621,-31.7408793
+            -60.4946243,-31.7436139
+            -60.49519,-31.746312
+            -60.4961317,-31.7511516
+            -60.4967821,-31.7541394
+            -60.497174,-31.7561451
+            -60.4977076,-31.7586957
+            -60.4982842,-31.7610364
+            -60.4987994,-31.7633693
+            -60.4993284,-31.7656972
+            -60.4997477,-31.7681583
+            -60.5002636,-31.7706194
+            -60.5013169,-31.7754868
+            -60.503381,-31.785249
+            -60.5053484,-31.7946388
+            -60.5059971,-31.7974123
+            -60.512139,-31.8087948
+            -60.5130036,-31.8166408
+            -60.5130989,-31.8179174
+            -60.5132224,-31.8194382
+            -60.5131978,-31.8200597
+            -60.5126689,-31.8242456
+            -60.5158044,-31.8241462
+            -60.5163649,-31.8240011
+            -60.5173218,-31.8270053
+            -60.5181286,-31.830055
+            -60.518343,-31.830648
+            -60.518673,-31.831111
+            -60.5191253,-31.8316009
+            -60.5199156,-31.8321957
+            -60.5212618,-31.8329314
+            -60.5210864,-31.8331641
+            -60.5210637,-31.8334772
+            -60.5213749,-31.8340529
+            -60.5219674,-31.8343024
           </coordinates>
         </LineString>
       </Placemark>
@@ -4187,7 +4187,7 @@
         <styleUrl>#icon-seq2-2-0-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.522201,-31.834217,0
+            -60.522201,-31.834217
           </coordinates>
         </Point>
       </Placemark>
@@ -4196,7 +4196,7 @@
         <styleUrl>#icon-seq2-2-1-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.519369,-31.831993,0
+            -60.519369,-31.831993
           </coordinates>
         </Point>
       </Placemark>
@@ -4205,7 +4205,7 @@
         <styleUrl>#icon-seq2-2-2-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.517845,-31.830389,0
+            -60.517845,-31.830389
           </coordinates>
         </Point>
       </Placemark>
@@ -4214,7 +4214,7 @@
         <styleUrl>#icon-seq2-2-3-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.517438,-31.827709,0
+            -60.517438,-31.827709
           </coordinates>
         </Point>
       </Placemark>
@@ -4223,7 +4223,7 @@
         <styleUrl>#icon-seq2-2-4-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.516536,-31.824773,0
+            -60.516536,-31.824773
           </coordinates>
         </Point>
       </Placemark>
@@ -4232,7 +4232,7 @@
         <styleUrl>#icon-seq2-2-5-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.51291,-31.824445,0
+            -60.51291,-31.824445
           </coordinates>
         </Point>
       </Placemark>
@@ -4241,7 +4241,7 @@
         <styleUrl>#icon-seq2-2-6-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.512824,-31.82151,0
+            -60.512824,-31.82151
           </coordinates>
         </Point>
       </Placemark>
@@ -4250,7 +4250,7 @@
         <styleUrl>#icon-seq2-2-7-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.512631,-31.814909,0
+            -60.512631,-31.814909
           </coordinates>
         </Point>
       </Placemark>
@@ -4259,7 +4259,7 @@
         <styleUrl>#icon-seq2-2-8-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.512234,-31.810925,0
+            -60.512234,-31.810925
           </coordinates>
         </Point>
       </Placemark>
@@ -4268,7 +4268,7 @@
         <styleUrl>#icon-seq2-2-9-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.511698,-31.808345,0
+            -60.511698,-31.808345
           </coordinates>
         </Point>
       </Placemark>
@@ -4277,7 +4277,7 @@
         <styleUrl>#icon-seq2-2-10-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.508876,-31.803093,0
+            -60.508876,-31.803093
           </coordinates>
         </Point>
       </Placemark>
@@ -4286,7 +4286,7 @@
         <styleUrl>#icon-seq2-2-11-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.50526,-31.794969,0
+            -60.50526,-31.794969
           </coordinates>
         </Point>
       </Placemark>
@@ -4295,7 +4295,7 @@
         <styleUrl>#icon-seq2-2-12-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.504488,-31.791668,0
+            -60.504488,-31.791668
           </coordinates>
         </Point>
       </Placemark>
@@ -4304,7 +4304,7 @@
         <styleUrl>#icon-seq2-2-13-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.503179,-31.785339,0
+            -60.503179,-31.785339
           </coordinates>
         </Point>
       </Placemark>
@@ -4313,7 +4313,7 @@
         <styleUrl>#icon-seq2-2-14-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.502503,-31.782046,0
+            -60.502503,-31.782046
           </coordinates>
         </Point>
       </Placemark>
@@ -4322,7 +4322,7 @@
         <styleUrl>#icon-seq2-2-15-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.502042,-31.779848,0
+            -60.502042,-31.779848
           </coordinates>
         </Point>
       </Placemark>
@@ -4331,7 +4331,7 @@
         <styleUrl>#icon-seq2-2-16-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.501655,-31.778079,0
+            -60.501655,-31.778079
           </coordinates>
         </Point>
       </Placemark>
@@ -4340,7 +4340,7 @@
         <styleUrl>#icon-seq2-2-17-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.501365,-31.776745,0
+            -60.501365,-31.776745
           </coordinates>
         </Point>
       </Placemark>
@@ -4349,7 +4349,7 @@
         <styleUrl>#icon-seq2-2-18-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.500929,-31.774532,0
+            -60.500929,-31.774532
           </coordinates>
         </Point>
       </Placemark>
@@ -4358,7 +4358,7 @@
         <styleUrl>#icon-seq2-2-19-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.5006,-31.772864,0
+            -60.5006,-31.772864
           </coordinates>
         </Point>
       </Placemark>
@@ -4367,7 +4367,7 @@
         <styleUrl>#icon-seq2-2-20-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.500004,-31.770112,0
+            -60.500004,-31.770112
           </coordinates>
         </Point>
       </Placemark>
@@ -4376,7 +4376,7 @@
         <styleUrl>#icon-seq2-2-21-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.499678,-31.768571,0
+            -60.499678,-31.768571
           </coordinates>
         </Point>
       </Placemark>
@@ -4385,7 +4385,7 @@
         <styleUrl>#icon-seq2-2-22-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.499218,-31.765993,0
+            -60.499218,-31.765993
           </coordinates>
         </Point>
       </Placemark>
@@ -4394,7 +4394,7 @@
         <styleUrl>#icon-seq2-2-23-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.498686,-31.76349,0
+            -60.498686,-31.76349
           </coordinates>
         </Point>
       </Placemark>
@@ -4403,7 +4403,7 @@
         <styleUrl>#icon-seq2-2-24-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.498147,-31.760986,0
+            -60.498147,-31.760986
           </coordinates>
         </Point>
       </Placemark>
@@ -4412,7 +4412,7 @@
         <styleUrl>#icon-seq2-2-25-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.497467,-31.758425,0
+            -60.497467,-31.758425
           </coordinates>
         </Point>
       </Placemark>
@@ -4421,7 +4421,7 @@
         <styleUrl>#icon-seq2-2-26-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.497017,-31.756144,0
+            -60.497017,-31.756144
           </coordinates>
         </Point>
       </Placemark>
@@ -4430,7 +4430,7 @@
         <styleUrl>#icon-seq2-2-27-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.496263,-31.753095,0
+            -60.496263,-31.753095
           </coordinates>
         </Point>
       </Placemark>
@@ -4439,7 +4439,7 @@
         <styleUrl>#icon-seq2-2-28-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.49573,-31.750469,0
+            -60.49573,-31.750469
           </coordinates>
         </Point>
       </Placemark>
@@ -4448,7 +4448,7 @@
         <styleUrl>#icon-seq2-2-29-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.495418,-31.748638,0
+            -60.495418,-31.748638
           </coordinates>
         </Point>
       </Placemark>
@@ -4457,7 +4457,7 @@
         <styleUrl>#icon-seq2-2-30-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.4948786,-31.7458241,0
+            -60.4948786,-31.7458241
           </coordinates>
         </Point>
       </Placemark>
@@ -4466,7 +4466,7 @@
         <styleUrl>#icon-seq2-2-31-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.494272,-31.742656,0
+            -60.494272,-31.742656
           </coordinates>
         </Point>
       </Placemark>
@@ -4475,7 +4475,7 @@
         <styleUrl>#icon-seq2-2-32-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.493501,-31.739573,0
+            -60.493501,-31.739573
           </coordinates>
         </Point>
       </Placemark>
@@ -4484,7 +4484,7 @@
         <styleUrl>#icon-seq2-2-33-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.493062,-31.737612,0
+            -60.493062,-31.737612
           </coordinates>
         </Point>
       </Placemark>
@@ -4493,7 +4493,7 @@
         <styleUrl>#icon-seq2-2-34-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.494049,-31.736307,0
+            -60.494049,-31.736307
           </coordinates>
         </Point>
       </Placemark>
@@ -4502,7 +4502,7 @@
         <styleUrl>#icon-seq2-2-35-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.496495,-31.735887,0
+            -60.496495,-31.735887
           </coordinates>
         </Point>
       </Placemark>
@@ -4511,7 +4511,7 @@
         <styleUrl>#icon-seq2-2-36-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.498115,-31.73565,0
+            -60.498115,-31.73565
           </coordinates>
         </Point>
       </Placemark>
@@ -4520,7 +4520,7 @@
         <styleUrl>#icon-seq2-2-37-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.500025,-31.735321,0
+            -60.500025,-31.735321
           </coordinates>
         </Point>
       </Placemark>
@@ -4529,7 +4529,7 @@
         <styleUrl>#icon-seq2-2-38-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.501628,-31.735098,0
+            -60.501628,-31.735098
           </coordinates>
         </Point>
       </Placemark>
@@ -4538,7 +4538,7 @@
         <styleUrl>#icon-seq2-2-39-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.503565,-31.734819,0
+            -60.503565,-31.734819
           </coordinates>
         </Point>
       </Placemark>
@@ -4547,7 +4547,7 @@
         <styleUrl>#icon-seq2-2-40-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.50687,-31.734308,0
+            -60.50687,-31.734308
           </coordinates>
         </Point>
       </Placemark>
@@ -4556,7 +4556,7 @@
         <styleUrl>#icon-seq2-2-41-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.50938,-31.733916,0
+            -60.50938,-31.733916
           </coordinates>
         </Point>
       </Placemark>
@@ -4565,7 +4565,7 @@
         <styleUrl>#icon-seq2-2-42-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.51159,-31.733551,0
+            -60.51159,-31.733551
           </coordinates>
         </Point>
       </Placemark>
@@ -4574,7 +4574,7 @@
         <styleUrl>#icon-seq2-2-43-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.514358,-31.733095,0
+            -60.514358,-31.733095
           </coordinates>
         </Point>
       </Placemark>
@@ -4583,7 +4583,7 @@
         <styleUrl>#icon-seq2-2-44-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.516214,-31.731982,0
+            -60.516214,-31.731982
           </coordinates>
         </Point>
       </Placemark>
@@ -4592,7 +4592,7 @@
         <styleUrl>#icon-seq2-2-45-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.522255,-31.730275,0
+            -60.522255,-31.730275
           </coordinates>
         </Point>
       </Placemark>
@@ -4601,7 +4601,7 @@
         <styleUrl>#icon-seq2-2-46-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.525388,-31.729417,0
+            -60.525388,-31.729417
           </coordinates>
         </Point>
       </Placemark>
@@ -4610,7 +4610,7 @@
         <styleUrl>#icon-seq2-2-47-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.529252,-31.728283,0
+            -60.529252,-31.728283
           </coordinates>
         </Point>
       </Placemark>
@@ -4619,7 +4619,7 @@
         <styleUrl>#icon-seq2-2-48-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.5311811,-31.7275557,0
+            -60.5311811,-31.7275557
           </coordinates>
         </Point>
       </Placemark>
@@ -4631,7 +4631,7 @@
         <styleUrl>#icon-seq2-3-0-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.531061,-31.727459,0
+            -60.531061,-31.727459
           </coordinates>
         </Point>
       </Placemark>
@@ -4640,7 +4640,7 @@
         <styleUrl>#icon-seq2-3-1-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.528778,-31.727345,0
+            -60.528778,-31.727345
           </coordinates>
         </Point>
       </Placemark>
@@ -4649,7 +4649,7 @@
         <styleUrl>#icon-seq2-3-2-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.52483,-31.728386,0
+            -60.52483,-31.728386
           </coordinates>
         </Point>
       </Placemark>
@@ -4658,7 +4658,7 @@
         <styleUrl>#icon-seq2-3-3-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.521815,-31.729162,0
+            -60.521815,-31.729162
           </coordinates>
         </Point>
       </Placemark>
@@ -4667,7 +4667,7 @@
         <styleUrl>#icon-seq2-3-4-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.516976,-31.730385,0
+            -60.516976,-31.730385
           </coordinates>
         </Point>
       </Placemark>
@@ -4676,7 +4676,7 @@
         <styleUrl>#icon-seq2-3-5-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.512803,-31.730996,0
+            -60.512803,-31.730996
           </coordinates>
         </Point>
       </Placemark>
@@ -4685,7 +4685,7 @@
         <styleUrl>#icon-seq2-3-6-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.510035,-31.731489,0
+            -60.510035,-31.731489
           </coordinates>
         </Point>
       </Placemark>
@@ -4694,7 +4694,7 @@
         <styleUrl>#icon-seq2-3-7-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.510228,-31.733496,0
+            -60.510228,-31.733496
           </coordinates>
         </Point>
       </Placemark>
@@ -4703,7 +4703,7 @@
         <styleUrl>#icon-seq2-3-8-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.509187,-31.734094,0
+            -60.509187,-31.734094
           </coordinates>
         </Point>
       </Placemark>
@@ -4712,7 +4712,7 @@
         <styleUrl>#icon-seq2-3-9-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.506773,-31.734527,0
+            -60.506773,-31.734527
           </coordinates>
         </Point>
       </Placemark>
@@ -4721,7 +4721,7 @@
         <styleUrl>#icon-seq2-3-10-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.504016,-31.734965,0
+            -60.504016,-31.734965
           </coordinates>
         </Point>
       </Placemark>
@@ -4730,7 +4730,7 @@
         <styleUrl>#icon-seq2-3-11-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.501934,-31.735303,0
+            -60.501934,-31.735303
           </coordinates>
         </Point>
       </Placemark>
@@ -4739,7 +4739,7 @@
         <styleUrl>#icon-seq2-3-12-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.499563,-31.735641,0
+            -60.499563,-31.735641
           </coordinates>
         </Point>
       </Placemark>
@@ -4748,7 +4748,7 @@
         <styleUrl>#icon-seq2-3-13-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.497922,-31.735896,0
+            -60.497922,-31.735896
           </coordinates>
         </Point>
       </Placemark>
@@ -4757,7 +4757,7 @@
         <styleUrl>#icon-seq2-3-14-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.496613,-31.736115,0
+            -60.496613,-31.736115
           </coordinates>
         </Point>
       </Placemark>
@@ -4766,7 +4766,7 @@
         <styleUrl>#icon-seq2-3-15-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.494542,-31.736453,0
+            -60.494542,-31.736453
           </coordinates>
         </Point>
       </Placemark>
@@ -4775,7 +4775,7 @@
         <styleUrl>#icon-seq2-3-16-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.493362,-31.737785,0
+            -60.493362,-31.737785
           </coordinates>
         </Point>
       </Placemark>
@@ -4784,7 +4784,7 @@
         <styleUrl>#icon-seq2-3-17-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.493727,-31.739436,0
+            -60.493727,-31.739436
           </coordinates>
         </Point>
       </Placemark>
@@ -4793,7 +4793,7 @@
         <styleUrl>#icon-seq2-3-18-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.494406,-31.74267,0
+            -60.494406,-31.74267
           </coordinates>
         </Point>
       </Placemark>
@@ -4802,7 +4802,7 @@
         <styleUrl>#icon-seq2-3-19-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.4951465,-31.7456825,0
+            -60.4951465,-31.7456825
           </coordinates>
         </Point>
       </Placemark>
@@ -4811,7 +4811,7 @@
         <styleUrl>#icon-seq2-3-20-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.495611,-31.748565,0
+            -60.495611,-31.748565
           </coordinates>
         </Point>
       </Placemark>
@@ -4820,7 +4820,7 @@
         <styleUrl>#icon-seq2-3-21-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.495977,-31.750432,0
+            -60.495977,-31.750432
           </coordinates>
         </Point>
       </Placemark>
@@ -4829,7 +4829,7 @@
         <styleUrl>#icon-seq2-3-22-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.496752,-31.753806,0
+            -60.496752,-31.753806
           </coordinates>
         </Point>
       </Placemark>
@@ -4838,7 +4838,7 @@
         <styleUrl>#icon-seq2-3-23-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.497155,-31.756189,0
+            -60.497155,-31.756189
           </coordinates>
         </Point>
       </Placemark>
@@ -4847,7 +4847,7 @@
         <styleUrl>#icon-seq2-3-24-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.497684,-31.758565,0
+            -60.497684,-31.758565
           </coordinates>
         </Point>
       </Placemark>
@@ -4856,7 +4856,7 @@
         <styleUrl>#icon-seq2-3-25-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.49802,-31.760052,0
+            -60.49802,-31.760052
           </coordinates>
         </Point>
       </Placemark>
@@ -4865,7 +4865,7 @@
         <styleUrl>#icon-seq2-3-26-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.498401,-31.761515,0
+            -60.498401,-31.761515
           </coordinates>
         </Point>
       </Placemark>
@@ -4874,7 +4874,7 @@
         <styleUrl>#icon-seq2-3-27-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.498774,-31.763336,0
+            -60.498774,-31.763336
           </coordinates>
         </Point>
       </Placemark>
@@ -4883,7 +4883,7 @@
         <styleUrl>#icon-seq2-3-28-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.49932,-31.76585,0
+            -60.49932,-31.76585
           </coordinates>
         </Point>
       </Placemark>
@@ -4892,7 +4892,7 @@
         <styleUrl>#icon-seq2-3-29-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.499763,-31.768272,0
+            -60.499763,-31.768272
           </coordinates>
         </Point>
       </Placemark>
@@ -4901,7 +4901,7 @@
         <styleUrl>#icon-seq2-3-30-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.500147,-31.770052,0
+            -60.500147,-31.770052
           </coordinates>
         </Point>
       </Placemark>
@@ -4910,7 +4910,7 @@
         <styleUrl>#icon-seq2-3-31-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.500669,-31.772517,0
+            -60.500669,-31.772517
           </coordinates>
         </Point>
       </Placemark>
@@ -4919,7 +4919,7 @@
         <styleUrl>#icon-seq2-3-32-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.501008,-31.774026,0
+            -60.501008,-31.774026
           </coordinates>
         </Point>
       </Placemark>
@@ -4928,7 +4928,7 @@
         <styleUrl>#icon-seq2-3-33-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.501709,-31.776611,0
+            -60.501709,-31.776611
           </coordinates>
         </Point>
       </Placemark>
@@ -4937,7 +4937,7 @@
         <styleUrl>#icon-seq2-3-34-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.501945,-31.777924,0
+            -60.501945,-31.777924
           </coordinates>
         </Point>
       </Placemark>
@@ -4946,7 +4946,7 @@
         <styleUrl>#icon-seq2-3-35-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.502288,-31.779648,0
+            -60.502288,-31.779648
           </coordinates>
         </Point>
       </Placemark>
@@ -4955,7 +4955,7 @@
         <styleUrl>#icon-seq2-3-36-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.502857,-31.782128,0
+            -60.502857,-31.782128
           </coordinates>
         </Point>
       </Placemark>
@@ -4964,7 +4964,7 @@
         <styleUrl>#icon-seq2-3-37-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.503393,-31.784919,0
+            -60.503393,-31.784919
           </coordinates>
         </Point>
       </Placemark>
@@ -4973,7 +4973,7 @@
         <styleUrl>#icon-seq2-3-38-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.504659,-31.791004,0
+            -60.504659,-31.791004
           </coordinates>
         </Point>
       </Placemark>
@@ -4982,7 +4982,7 @@
         <styleUrl>#icon-seq2-3-39-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.505443,-31.794604,0
+            -60.505443,-31.794604
           </coordinates>
         </Point>
       </Placemark>
@@ -4991,7 +4991,7 @@
         <styleUrl>#icon-seq2-3-40-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.509037,-31.802829,0
+            -60.509037,-31.802829
           </coordinates>
         </Point>
       </Placemark>
@@ -5000,7 +5000,7 @@
         <styleUrl>#icon-seq2-3-41-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.511869,-31.808035,0
+            -60.511869,-31.808035
           </coordinates>
         </Point>
       </Placemark>
@@ -5009,7 +5009,7 @@
         <styleUrl>#icon-seq2-3-42-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.512556,-31.811098,0
+            -60.512556,-31.811098
           </coordinates>
         </Point>
       </Placemark>
@@ -5018,7 +5018,7 @@
         <styleUrl>#icon-seq2-3-43-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.512964,-31.814709,0
+            -60.512964,-31.814709
           </coordinates>
         </Point>
       </Placemark>
@@ -5027,7 +5027,7 @@
         <styleUrl>#icon-seq2-3-44-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.513135,-31.821473,0
+            -60.513135,-31.821473
           </coordinates>
         </Point>
       </Placemark>
@@ -5036,7 +5036,7 @@
         <styleUrl>#icon-seq2-3-45-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.512813,-31.82409,0
+            -60.512813,-31.82409
           </coordinates>
         </Point>
       </Placemark>
@@ -5045,7 +5045,7 @@
         <styleUrl>#icon-seq2-3-46-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.516665,-31.824363,0
+            -60.516665,-31.824363
           </coordinates>
         </Point>
       </Placemark>
@@ -5054,7 +5054,7 @@
         <styleUrl>#icon-seq2-3-47-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.517523,-31.827216,0
+            -60.517523,-31.827216
           </coordinates>
         </Point>
       </Placemark>
@@ -5063,7 +5063,7 @@
         <styleUrl>#icon-seq2-3-48-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.518188,-31.829896,0
+            -60.518188,-31.829896
           </coordinates>
         </Point>
       </Placemark>
@@ -5072,7 +5072,7 @@
         <styleUrl>#icon-seq2-3-49-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.51939,-31.831646,0
+            -60.51939,-31.831646
           </coordinates>
         </Point>
       </Placemark>
@@ -5081,7 +5081,7 @@
         <styleUrl>#icon-seq2-3-50-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -60.521836,-31.834208,0
+            -60.521836,-31.834208
           </coordinates>
         </Point>
       </Placemark>
