@@ -1,0 +1,19 @@
+-- 9. Centros de salud más cercanos (en metros).
+
+SELECT centroa ,centrob,CAST(distancia AS NUMERIC(20,2)) AS distancia_mt
+FROM 
+(
+SELECT a.gid, a.nombre AS CentroA, b.gid, b.nombre AS CentroB, ST_Distance(a.geom,b.geom,true) AS distancia
+  FROM centros_salud a
+  JOIN centros_salud b
+  ON a.gid<>b.gid
+  ORDER BY distancia ASC
+) AS tabla
+WHERE distancia <> 0 LIMIT 1;
+
+
+INSERT INTO resultados(
+	ejercicio, item, descripcion, otro_resultado)
+	VALUES 	(9, 1, 'Centros de salud más cercanos', )
+
+SELECT * FROM resultados;
