@@ -1,0 +1,8 @@
+--Esperando respuesta del profe
+SELECT ST_COLLECT(
+	ST_CENTROID(ST_COLLECT(
+		ARRAY(Select geom from radios_censales)
+	)
+), ST_COLLECT(
+		ARRAY(Select geom from radios_censales))
+	)
