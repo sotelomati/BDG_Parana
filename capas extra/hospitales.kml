@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>hospitales</name>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Hospital Materno Infantil San Roque</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5217409,-31.7303642
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sanatorio La Entrerriana</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5282413,-31.7240507
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hospital De La Baxada Doctora Teresa Ratto</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.53283,-31.753394
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hospital San Martín</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5232578,-31.7406031
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hospital Militar Paraná</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5365016,-31.7487912
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hospital Escuela de Salud Mental</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.4968488,-31.7243709
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hospital Gerardo Domagk</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.566927,-31.706886
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro de Salud Dr Ramón Carrillo.</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5453601,-31.7327277
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hospital La Baxada</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5115471,-31.7413197
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro de Salud</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5531219,-31.7314337
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro de Salud Pagani</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.4990462,-31.7440728
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro de Salud Santa Lucía</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5196315,-31.7685835
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Galeno</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5303101,-31.7291331
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro de Salud Dr Ramón Carrillo.</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5453601,-31.7327277
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro De Salud ARTURO OÑATIVIA</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.499087,-31.764417
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro De Salud Manuel Belgrano</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5286239,-31.7485402
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Centro de Salud Humberto D'Angelo]]></name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5542623,-31.7443662
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro De Especialidades Neurologicas</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5372455,-31.73282
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro de Salud Cecilia Grierson</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.4967953,-31.733898
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro de Salud</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -60.5531219,-31.7314337
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
