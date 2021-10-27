@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 SELECT centroa,centrob,CAST(distancia AS NUMERIC(20,2)) AS distancia_mt, georesultado
 FROM
 (
 SELECT a.gid, a.nombre AS CentroA, b.gid, b.nombre AS CentroB, ST_Distance(a.geom,b.geom,true) AS distancia, ST_COLLECT(a.geom, b.geom) AS georesultado
+=======
+-- 9. Centros de salud más cercanos (en metros).
+
+SELECT centroa ,centrob,CAST(distancia AS NUMERIC(20,2)) AS distancia_mt
+FROM 
+(
+SELECT a.gid, a.nombre AS CentroA, b.gid, b.nombre AS CentroB, ST_Distance(a.geom,b.geom,true) AS distancia
+>>>>>>> 5acd647594ab47485b7ffb890962a4d26da75e7d
   FROM centros_salud a
   JOIN centros_salud b
   ON a.gid<>b.gid
@@ -9,6 +18,7 @@ SELECT a.gid, a.nombre AS CentroA, b.gid, b.nombre AS CentroB, ST_Distance(a.geo
 ) AS tabla
 WHERE distancia <> 0 LIMIT 1;
 
+<<<<<<< HEAD
 INSERT INTO resultados( ejercicio, item, descripcion, georesultado, otro_resultado)
 	VALUES 	(9, 1, 'Centros de salud mas cercanos (en metros)',
 			(SELECT georesultado
@@ -24,3 +34,11 @@ INSERT INTO resultados( ejercicio, item, descripcion, georesultado, otro_resulta
 			)
 
 SELECT * FROM resultados
+=======
+
+INSERT INTO resultados(
+	ejercicio, item, descripcion, otro_resultado)
+	VALUES 	(9, 1, 'Centros de salud más cercanos', )
+
+SELECT * FROM resultados;
+>>>>>>> 5acd647594ab47485b7ffb890962a4d26da75e7d
