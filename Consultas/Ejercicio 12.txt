@@ -6,3 +6,35 @@ SELECT ST_COLLECT(
 ), ST_COLLECT(
 		ARRAY(Select geom from radios_censales))
 	)
+
+delete from radios_censales where gid = 337
+delete from radios_censales where gid = 338
+
+--lo que quedo
+
+SELECT CAST((e.tot *100.00 /GET_CANT_ESCUELAS_SECTOR(e.sector)) AS NUMERIC(5,2)) AS PORCENTAJE,
+		e.cuadrante,
+		e.sector
+FROM (
+		SELECT	
+			e.sector,
+			count(e.gid) AS TOT,
+			GET_CUADRANTE_CMP(ST_CENTROID(ST_COLLECT(ARRAY(Select geom from radios_censales))), e.geom) AS CUADRANTE
+		FROM  escuelas e
+		where sector LIKE 'Estatal' OR SECTOR LIKE 'Privado'
+		GROUP BY 	GET_CUADRANTE_CMP(ST_CENTROID(ST_COLLECT(ARRAY(Select geom from radios_censales))), e.geom)--, e.sector, e.geom
+				,e.sector
+	) e
+	GROUP BY e.tot, e.sector, e.cuadrante
+	
+	
+select ST_CENTROID(ST_COLLECT(ARRAY(Select geom from radios_censales)))
+
+INSERT INTO resultados( ejercicio, item, descripcion, georesultado, otro_resultado)
+	VALUES 	(12, 1, 'Encontrar el punto central de parana y luego calcular el el porcentaje de escuelas privadas y estatales de cada zona',
+			(
+				select ST_CENTROID(ST_COLLECT(ARRAY(Select geom from radios_censales)))
+			 ), 
+			 '{"porcentaje","cuadrante","sector"},{"0.55",3,"Estatal"},{"1.79",4,"Privado"},{"2.21",2,"Estatal"},{"3.57",2,"Privado"},{"5.52",4,"Estatal"},{"94.64",1,"Privado"},{"91.71",1,"Estatal"}'
+			)
+
