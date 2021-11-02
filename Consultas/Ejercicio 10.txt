@@ -1,0 +1,10 @@
+-- 10. Línea de colectivo con paradas más alejadas (en metros).
+select ST_COLLECT(a.geom, b.geom) AS Paradas, a.numero_linea, b.numero_linea, 
+	a.numero_parada, b.numero_parada, a.ida_vuelta, 
+	cast(ST_Distance(ST_Transform(a.geom,4326),ST_Transform(b.geom,4326),true) as NUMERIC(20,2)) as distancia
+from paradas_colectivos a
+join paradas_colectivos b 
+on a.gid <> b.gid and a.numero_linea = b.numero_linea and a.ida_vuelta = b.ida_vuelta
+where a.numero_parada = b.numero_parada + 1
+order by distancia desc
+limit 1

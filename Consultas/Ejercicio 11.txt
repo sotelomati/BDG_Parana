@@ -1,5 +1,5 @@
 --Obtenga la escuela ubicada más al norte de la ciudad.
-select nombre, geom from escuelas
+select nombre, ST_TRANSFORM(geom,4326) from escuelas
 group by geom,nombre
 order by st_y(ST_AsText(ST_Transform(geom,4326)))  desc
 limit 1
@@ -7,7 +7,7 @@ limit 1
 INSERT INTO resultados(
 	ejercicio, item, descripcion, georesultado, otro_resultado)
 	VALUES 	(11, 1, 'La escuela ubicada más al norte de la ciudad',
-				( 	select geom from escuelas
+				( 	select ST_TRANSFORM(geom,4326) from escuelas
 					group by geom,nombre
 					order by st_y(ST_AsText(ST_Transform(geom,4326)))  desc
 					limit 1

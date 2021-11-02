@@ -9,13 +9,13 @@ SELECT DISTINCT ON(calles_tipo.nombre)
 	ORDER BY calles_tipo.nombre, longitud DESC
 	) C
 ORDER BY C.longitud DESC
-
+LIMIT 1
 
 
 INSERT INTO resultados(
 	ejercicio, item, descripcion, otro_resultado)
 	VALUES 	(8, 1, 'Liste la calle más larga de cada tipo, proyecte nombre, tipo y longitud (en kilómetros)',
-			 '[{"nombre","nombre-2","longitud"},{"Ruta Provincial 11","primary",10.78},{"Acceso Norte","trunk",8.23},{"Gobernador E. Parera","residential",6.14},{"Avenida Zanni","secondary",4.94},{"Miguel David","tertiary",4.40},{"Montiel","unclassified",4.33},{"San Marín","pedestrian",0.82},{"Calle interna Basural","service",0.55},{"Paseo Ituzaingó","footway",0.32},{"Continuacion Calle El Paracao","path",0.29},{"1335","track",0.08}]'
+			 '{"nombre","nombre-2","longitud"},{"Ruta Provincial 11","primary","10.78"}'
 			)
 			
 SELECT * FROM resultados
