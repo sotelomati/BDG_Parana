@@ -1,0 +1,39 @@
+-- FUNCTION: public.get_cuadrante_cmp(geometry, geometry)
+
+-- DROP FUNCTION public.get_cuadrante_cmp(geometry, geometry);
+
+CREATE OR REPLACE FUNCTION public.get_cuadrante_cmp(
+  geom1 geometry,
+  geom2 geometry)
+    RETURNS integer
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE PARALLEL UNSAFE
+AS $BODY$
+DECLARE TO_RETURN INTEGER;
+BEGIN
+
+IF ST_X(geom2) <= ST_X(geom1) THEN
+  IF ST_Y(geom2) <= ST_Y(geom1) THEN
+    --LATINO AMERICA
+    TO_RETURN = 4;
+  ELSE
+    --NORTE AMERICA
+    TO_RETURN = 1;
+  END IF;
+ELSE
+  IF ST_Y(geom2) <= ST_Y(geom1) THEN
+    --POR AFRICA
+    TO_RETURN = 3;
+  ELSE
+    --ASIA
+    TO_RETURN = 2;
+  END IF;
+END IF;
+
+RETURN TO_RETURN;
+END
+$BODY$;
+
+ALTER FUNCTION public.get_cuadrante_cmp(geometry, geometry)
+    OWNER TO postgres;
