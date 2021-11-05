@@ -8,3 +8,25 @@ on a.gid <> b.gid and a.numero_linea = b.numero_linea and a.ida_vuelta = b.ida_v
 where a.numero_parada = b.numero_parada + 1
 order by distancia desc
 limit 1
+
+
+
+INSERT INTO resultados(
+	ejercicio, item, descripcion, georesultado, otro_resultado)
+	VALUES 	(10, 1, 'La escuela ubicada más al norte de la ciudad',
+				( 	select aux.paradas from (select ST_COLLECT(a.geom, b.geom) AS Paradas, a.numero_linea, b.numero_linea, 
+						a.numero_parada, b.numero_parada, a.ida_vuelta, 
+						cast(ST_Distance(ST_Transform(a.geom,4326),ST_Transform(b.geom,4326),true) as NUMERIC(20,2)) as distancia
+					from paradas_colectivos a
+					join paradas_colectivos b 
+					on a.gid <> b.gid and a.numero_linea = b.numero_linea and a.ida_vuelta = b.ida_vuelta
+					where a.numero_parada = b.numero_parada + 1
+					order by distancia desc
+					limit 1) aux
+				),
+			 	(
+					'{"numero_linea","numero_linea-2","numero_parada","numero_parada-2","ida_vuelta","distancia"},{"24","24",41,40,False,"5238.16"}'
+				)
+			)
+			
+select * from resultados where ejercicio = 10
