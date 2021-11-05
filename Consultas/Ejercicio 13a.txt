@@ -1,3 +1,7 @@
+update  propiedades set precio=0 where precio is null 
+update propiedades set sup_total=0 where sup_total is null
+update propiedades set moneda='ARS' where moneda is null
+
 SELECT gid, titulo, sup_total, precio, moneda, CASE WHEN moneda='USD' THEN CAST( precio * 99.70 AS NUMERIC(25,2)) ELSE CAST( precio AS NUMERIC(25,2)) END AS precio_total, tabla1.geom
 FROM (
   SELECT DISTINCT propiedades.* FROM comisarias, propiedades
